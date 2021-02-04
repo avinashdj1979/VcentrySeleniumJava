@@ -1,4 +1,4 @@
-package edu.vmetry.seljava.class06;
+package edu.vcentry.seljava.class06;
 
 public class TernaryChallenge {
 
