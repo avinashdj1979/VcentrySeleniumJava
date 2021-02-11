@@ -6,15 +6,16 @@ public class WhileLoop {
 
 	public static void main(String[] args) {
 		// printHelloSeries(5, 10);
-		printHelloSeries(1, 2);
-		printHelloSeries(1, 2, "Hello");
+		//printHelloSeries(1, 2);
+		printHelloSeries(5, 10, "Hello");
 	}
 
 	public static void printHelloSeries(int numberOfTimes, int newCounter, String whatToPrint) {
 		
 		int k = 0;
+		
 		while (k < numberOfTimes) {
-			System.out.println(whatToPrint);
+			System.out.println("counter" + k + ":  " + whatToPrint);
 			k = k + 1;
 		}
 
@@ -22,6 +23,7 @@ public class WhileLoop {
 			if (k >= (newCounter)) {
 				break;
 			}
+			System.out.println("counter" + k + ":  " + whatToPrint);
 			System.out.println(whatToPrint);
 			k = k + 1;
 		}
