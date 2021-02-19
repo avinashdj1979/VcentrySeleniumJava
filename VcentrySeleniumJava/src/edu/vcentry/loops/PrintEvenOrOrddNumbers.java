@@ -3,12 +3,11 @@ package edu.vcentry.loops;
 public class PrintEvenOrOrddNumbers {
 
 	public static void main(String[] args) {
+		/*
+		 * Uncomment and call if required
+		 */
 		//printSeries(10);
-		// printSeries(30, 40);
-
-//		int startRange = 10;
-//		int endRange = 20;
-//		printSeries(startRange, endRange);
+		//printSeries(30, 40);
 		
 		int startRange = 10;
 		int endRange = 20;
@@ -17,15 +16,11 @@ public class PrintEvenOrOrddNumbers {
 	}
 
 	public static void printSeries(int endRange) {
-//		for(int i = 0; i <= endRange; i++) {
-//			if(i % 2 == 0) {
-//				System.out.println("Number - " + i);
-//			}
-//		}
 		printSeries(0, endRange);
 	}
 
 	public static void printSeries(int startRange, int endRange) {
+		// Prints Even
 		for (int i = startRange; i <= endRange; i++) {
 			if (i % 2 == 0) {
 				System.out.println("Number - " + i);
