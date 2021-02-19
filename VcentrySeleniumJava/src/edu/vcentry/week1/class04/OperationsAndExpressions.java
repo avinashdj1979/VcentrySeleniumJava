@@ -1,4 +1,4 @@
-package edu.vcentry.seljava.class04;
+package edu.vcentry.week1.class04;
 
 public class OperationsAndExpressions {
 

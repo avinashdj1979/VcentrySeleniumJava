@@ -1,4 +1,4 @@
-package edu.vcentry.seljava.class05;
+package edu.vcentry.week1.class05;
 
 public class BooleanLogicalAndRelationalOperators {
 

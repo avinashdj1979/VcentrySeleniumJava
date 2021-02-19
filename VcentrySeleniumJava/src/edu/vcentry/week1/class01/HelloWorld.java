@@ -1,4 +1,4 @@
-package edu.vcentry.seljava.class01;
+package edu.vcentry.week1.class01;
 
 public class HelloWorld {
 

@@ -1,4 +1,4 @@
-package edu.vcentry.seljava.class06;
+package edu.vcentry.week1.class06;
 
 public class TenaryOperator {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package edu.vcentry.seljava.class03;
+package edu.vcentry.week1.class03;
 
 public class CharBoolean {
 	

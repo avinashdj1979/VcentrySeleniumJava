@@ -1,4 +1,4 @@
-package edu.vcentry.seljava.controlflow;
+package edu.vcentry.week1.controlflow;
 
 public class SwitchWithInt {
 	public static void main(String args[]) {

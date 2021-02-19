@@ -1,4 +1,4 @@
-package edu.vcentry.seljava.class02;
+package edu.vcentry.week1.class02;
 
 public class MyBasicJava {
 

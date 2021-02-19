@@ -1,4 +1,4 @@
-package edu.vcentry.seljava.challenge;
+package edu.vcentry.week1.challenge;
 
 public class GradesUsingSwitch {
 
