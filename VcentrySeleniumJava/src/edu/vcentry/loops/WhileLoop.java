@@ -1,7 +1,5 @@
 package edu.vcentry.loops;
 
-import edu.vcentry.seljava.challenge.PrintSeriesOfOddOrEven;
-
 public class WhileLoop {
 
 	public static void main(String[] args) {
