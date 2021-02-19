@@ -1,11 +1,6 @@
 package edu.vcentry.classes.staticandthiskeyword;
 
 public class StaticAndThisKeyword{
-	
-	/*
-	 * 
-	 * 
-	 */
 
 	//static variable
 	private static int staticCounter;

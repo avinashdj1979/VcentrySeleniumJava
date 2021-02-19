@@ -1,20 +1,22 @@
-package edu.vcentry.classes.runtimepolymorphism;
+package edu.vcentry.classes.basic04objectworeference;
 
 public class Person {
 	private static String name;
 	private int age;
-
-	public Person(String name1, int age) {
-		name = name1;
-		this.age = age;
+	
+	/*
+	 * If we create Person(name, age) with parameters
+	 * It is our responsibility to explicitly create a Person() constructor with parameters
+	 *
+	 */
+	
+	public Person(String name, int age1) {
+		this.name = name;
+		age = age1;
 	}
 
-	public Person() {
-
-	}
-
-	public static String getName() {
-		return name;
+	public String getName() {
+		return this.name;
 	}
 
 	public int getAge() {
@@ -30,9 +32,7 @@ public class Person {
 	}
 
 	public void eats() {
-		System.out.println("eats() method in Person called");
 		System.out.println(String.format("%s eats anything edible", name));
-		System.out.println("\n************************\n");
 	}
 
 }

@@ -3,7 +3,7 @@ package edu.vcentry.classes.inheritance;
 public class NorthIndian extends Indian{
 	
 	public NorthIndian() {
-		objCounter += 1;
+		
 	}
 	
 	public NorthIndian(String name, int age, String pan, String aadhaar) {

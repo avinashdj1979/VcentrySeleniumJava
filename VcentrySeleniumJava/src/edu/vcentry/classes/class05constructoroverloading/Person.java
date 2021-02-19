@@ -1,18 +1,23 @@
-package edu.vcentry.classes.runtimepolymorphism;
+package edu.vcentry.classes.class05constructoroverloading;
 
 public class Person {
 	private static String name;
 	private int age;
+	
+	public Person() {
+
+	}
 
 	public Person(String name1, int age) {
 		name = name1;
 		this.age = age;
 	}
 
-	public Person() {
-
-	}
-
+	/*
+	 * getName(), setName() and getAge() and setAge() are 
+	 * 		defined by us and not system generated
+	 * 		these methods are optional and not mandatory
+	 */
 	public static String getName() {
 		return name;
 	}
@@ -30,9 +35,7 @@ public class Person {
 	}
 
 	public void eats() {
-		System.out.println("eats() method in Person called");
 		System.out.println(String.format("%s eats anything edible", name));
-		System.out.println("\n************************\n");
 	}
 
 }

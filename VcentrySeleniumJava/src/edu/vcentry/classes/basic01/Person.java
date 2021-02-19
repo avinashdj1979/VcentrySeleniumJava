@@ -1,23 +1,13 @@
-package edu.vcentry.classes.constructoroverloading;
+package edu.vcentry.classes.basic01;
 
 public class Person {
 	private static String name;
 	private int age;
 	
-	public Person() {
-
-	}
-
-	public Person(String name1, int age) {
-		name = name1;
-		this.age = age;
-	}
-
 	/*
-	 * getName(), setName() and getAge() and setAge() are 
-	 * 		defined by us and not system generated
-	 * 		these methods are optional and not mandatory
+	 * By default, constructor Person() will be created for the class Person()
 	 */
+
 	public static String getName() {
 		return name;
 	}

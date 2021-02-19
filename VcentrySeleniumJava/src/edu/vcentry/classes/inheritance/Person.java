@@ -4,8 +4,6 @@ public class Person {
 	private static String name;
 	private int age;
 
-	public static int objCounter;
-
 	public Person(String name1, int age) {
 		name = name1;
 		this.age = age;

@@ -1,4 +1,4 @@
-package edu.vcentry.classes.constructoroverloading;
+package edu.vcentry.classes.class05constructoroverloading;
 
 public class Citizen {
 
