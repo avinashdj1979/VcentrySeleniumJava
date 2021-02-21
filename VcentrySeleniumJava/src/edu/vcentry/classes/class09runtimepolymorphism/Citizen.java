@@ -22,12 +22,27 @@ public class Citizen {
 		
 		arun.eats();
 		
+		// This will give compile time error because arun is Person at compile time and Person class don't have canVote() method
+		//arun.canVote()
+		
+		/*
+		 * The line number 34 is not allowed
+		 * If the compiler allows this to compile
+		 * 	Call to indian.canVote() will fail at run time, because during runtime the indian reference in line 34
+		 * refers to Person and Person class don't have canVote() method.
+		 */
+		//Indian indian = new Person();
+		//indian.canVote();
+		
+		
 		/*
 		 * In the below case eats method of Person is called
 		 */
 		
 		Person someone = new Person("Frank", 23);
 		someone.eats();
+		
+		
 	}
 
 }
