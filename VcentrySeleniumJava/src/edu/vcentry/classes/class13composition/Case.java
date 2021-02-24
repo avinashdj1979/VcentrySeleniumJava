@@ -34,6 +34,8 @@ public class Case {
 		return dimensions;
 	}
 	
-	
+	public int getHeight() {
+		return getDimensions().getHeigth();
+	}
 
 }

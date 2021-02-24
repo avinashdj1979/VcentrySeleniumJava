@@ -5,14 +5,14 @@ public class MotherBoard {
 	public String manufacturer;
 	public int cardSlots;
 	public int ramSlots;
-	public String bios;
+	public String biosVersion;
 	
 	public MotherBoard(String model, String manufacturer, int cardSlots, int ramSlots, String biosVersion) {
 		this.model = model;
 		this.manufacturer = manufacturer;
 		this.cardSlots = cardSlots;
 		this.ramSlots = ramSlots;
-		this.bios = biosVersion;
+		this.biosVersion = biosVersion;
 	}
 	
 	public void loadProgram(final String programName) {
@@ -36,7 +36,7 @@ public class MotherBoard {
 	}
 
 	public String getBiosVersion() {
-		return bios;
+		return biosVersion;
 	}
 	
 	

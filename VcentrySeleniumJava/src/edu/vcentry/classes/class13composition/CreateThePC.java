@@ -20,7 +20,9 @@ public class CreateThePC {
 		
 		System.out.println(String.format("Heigth of case is %d", thePC.getTheCase().getDimensions().getHeigth()));
 		
-		thePC.drawPixel();
+		thePC.draw();
+		
+		System.out.printf("The case height is %d\n", thePC.getCaseHeight() );
 		
 		
 	}

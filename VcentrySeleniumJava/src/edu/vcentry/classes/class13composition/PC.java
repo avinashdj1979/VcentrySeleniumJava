@@ -12,7 +12,7 @@ public class PC {
 		this.theCase = theCase;
 	}
 	
-	public void drawPixel() {
+	public void draw() {
 		theCase.powerOn();
 		motherBoard.loadProgram("Windows 10");
 		monitor.drawPixel(10, 20, "Yellow");
@@ -28,6 +28,10 @@ public class PC {
 
 	public Case getTheCase() {
 		return theCase;
+	}
+	
+	public int getCaseHeight() {
+		return theCase.getHeight();
 	}
 
 }
