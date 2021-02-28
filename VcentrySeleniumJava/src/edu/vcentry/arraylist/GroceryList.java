@@ -1,6 +1,7 @@
 package edu.vcentry.arraylist;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class GroceryList {
 	
@@ -58,6 +59,13 @@ public class GroceryList {
 		for(String item : groceryList) {
 			System.out.printf("%d. %s \n", i, item);
 			i++;
+		}
+	}
+	
+	public void printUsingIterator() {
+		Iterator<String> iter = groceryList.iterator();
+		while(iter.hasNext()) {
+			System.out.println(iter.next());
 		}
 	}
 
