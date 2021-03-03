@@ -1,41 +1,43 @@
 package edu.vcentry.interfaces;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
-public class Tennis implements Sports, Majors {
+public class Tennis implements Sports, Majors{
 
 	@Override
 	public void winner() {
-		System.out.println("Winner takes 3 out of 5 Sets");
+		System.out.println("Player winning 3 out of 5 sets");
 	}
 
 	@Override
 	public void tie() {
-		System.out.println("No Possibility of Tie. Tie Breakers are enforced");
-	}
-
-	@Override
-	public boolean isOlympicSport() {
-		//All fields of the interface are public static and final by default and value connot be modified.
-		//Sports.IS_NOT_OLYMPIC_SPORT = true;
-		return Sports.IS_OLYMPIC_SPORT;
+		System.out.println("Tie is not possible");
 	}
 	
 	public void type() {
-		System.out.println("Its an individual Game");
+		System.out.println("Its not a team sport - Its an Individual Sport");
 	}
-
-	ArrayList<String> majors = new ArrayList<String>();
+	
+	@Override
+	public void isOlympicSport() {
+		System.out.printf("This is a olympic sport - %b\n ", Sports.IS_OLYMPIC_SPORT);
+	}
 
 	@Override
-	public ArrayList<String> majors() {
-		majors.add("Australian Open");
+	public List<String> majors() {
+		List<String> majors = new LinkedList<String>();
+		majors.add("AO");
+		majors.add("FO");
+		majors.add("USO");
 		majors.add("Wimbledon");
-		majors.add("French Open");
-		majors.add("US Open");
-		
 		return majors;
 	}
+
+	@Override
+	public void weLoveSport() {
+		System.out.println("We love Tennis");
+	}
 	
-	
+	//public abstract void test();
 }

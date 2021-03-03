@@ -1,9 +1,7 @@
 package edu.vcentry.interfaces;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public interface Majors {
-	
-	ArrayList<String> majors();
-
+	public List<String> majors();
 }

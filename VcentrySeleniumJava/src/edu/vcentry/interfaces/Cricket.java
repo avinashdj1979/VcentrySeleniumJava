@@ -18,7 +18,7 @@ public class Cricket implements Sports{
 	}
 	
 	static void prizeMoney() {
-		System.out.println("1 Lakh Ruppee");
+		System.out.println("1 Lakh Rupee");
 	}
 
 }
