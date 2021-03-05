@@ -9,16 +9,18 @@ public class Cricket implements Sports{
 
 	@Override
 	public void tie() {
-		System.out.println("Game is tied when the team's runs are same.");
+		System.out.println("Team scores are equal");
 	}
 
 	@Override
-	public boolean isOlympicSport() {
-		return Sports.IS_NOT_OLYMPIC_SPORT;
+	public void isOlympicSport() {
+		System.out.printf("This is a olympic sport - %b\n ", Sports.IS_NOT_OLYMPIC_SPORT);
 	}
-	
-	static void prizeMoney() {
-		System.out.println("1 Lakh Rupee");
+
+	@Override
+	public void weLoveSport() {
+		System.out.println("We love Cricket");
+		
 	}
 
 }

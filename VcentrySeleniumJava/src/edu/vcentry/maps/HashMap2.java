@@ -3,6 +3,7 @@ package edu.vcentry.maps;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Vector;
 
 public class HashMap2 {
 
@@ -21,5 +22,14 @@ public class HashMap2 {
 		
 		System.out.println(":::::::::: Using Lambda ::::::::::");
 		steps.forEach((k,v) -> System.out.printf("%s :: %s\n", k, v));
+		
+		Vector<String> v = new Vector<String>();
+		
+		v.add("one");
+		v.add("two");
+		
+		for(String s : v) {  
+			System.out.println(s);
+		}
 	}
 }
