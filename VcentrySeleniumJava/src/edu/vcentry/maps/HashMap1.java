@@ -16,37 +16,21 @@ public class HashMap1 {
 		steps.put("step2", "Learn Selnium");
 		steps.put("step3", "Attend Interviews");
 		steps.put("step4", "Get Hired");
-		/*
-		Set<String> mySet= new HashSet<String>();
-		mySet.add("one");
-		mySet.add("two");
 		
-		for(String s : mySet) {
-			System.out.println(s);
-		}*/
+		System.out.println(steps.get("step1"));
 		
-		Set<Entry<String, String>>  step1 = steps.entrySet();
-		
-		System.out.println(step1.size());
-		
+		//Set<Map.Entry<String, String>>  step1 = steps.entrySet();
+
 		System.out.println(":::::::::: Using Map.Entry ::::::::::");
 		for(Map.Entry<String,String> step : steps.entrySet()) {
 			System.out.printf("Key:%s~~Value:%s\n", step.getKey(), step.getValue());
 		}
-
 		
 		System.out.println(":::::::::: Using Lambda ::::::::::");
-		steps.forEach((k,v) -> {
-			System.out.printf("%s ~~ %s\n", k, v); 
-			System.out.println("***");
-			}
-		);
+		steps.forEach((k,v) -> System.out.printf("%s ~~ %s\n", k, v));
 		
 		System.out.println(steps.get("step5"));
-		
-		System.out.println(steps.getOrDefault("step2", "No maching Step"));
-		
-		int myNum = 4;
-		
+		System.out.println(steps.getOrDefault("step5", "No maching Step"));
+		System.out.println(steps.getOrDefault("step2", "No maching Step"));  		
 	} 
 }
