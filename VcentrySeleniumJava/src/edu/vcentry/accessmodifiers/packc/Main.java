@@ -1,7 +1,7 @@
-package edu.vcentry.accessspecifiers.packc;
+package edu.vcentry.accessmodifiers.packc;
 
-import edu.vcentry.accessspecifiers.pack1.ClassA;
-import edu.vcentry.accessspecifiers.pack2.ClassB;
+import edu.vcentry.accessmodifiers.pack1.ClassA;
+import edu.vcentry.accessmodifiers.pack2.ClassB;
 
 public class Main extends ClassA{
 

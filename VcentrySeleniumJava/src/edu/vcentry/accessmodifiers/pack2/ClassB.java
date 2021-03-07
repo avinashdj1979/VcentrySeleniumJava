@@ -1,6 +1,6 @@
-package edu.vcentry.accessspecifiers.pack2;
+package edu.vcentry.accessmodifiers.pack2;
 
-import edu.vcentry.accessspecifiers.pack1.ClassA;
+import edu.vcentry.accessmodifiers.pack1.ClassA;
 
 public class ClassB extends ClassA{
 	

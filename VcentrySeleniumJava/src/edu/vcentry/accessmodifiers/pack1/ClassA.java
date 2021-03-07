@@ -1,4 +1,4 @@
-package edu.vcentry.accessspecifiers.pack1;
+package edu.vcentry.accessmodifiers.pack1;
 
 public class ClassA {
 
