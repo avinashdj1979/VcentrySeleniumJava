@@ -10,9 +10,13 @@ public class ClassB extends ClassA{
 	}
 	
 	public void printD() {
-		printB(); // Eventhough it is not in the same package B is a sub class of A hence Accessible.
+		printB(); // Even though it is not in the same package B is a sub class of A hence Accessible.
 		System.out.println("printD() is accessed outside Package. Public");
 	}
 	
-	
+	public static void main(String args[]) {
+		ClassA aobj = new ClassA();
+		ClassB bobj = new ClassB();
+		ClassA bobj2 = new ClassB();
+	}
 }
